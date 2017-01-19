@@ -1,4 +1,4 @@
-document.addEventListener('deviceready', function () {alert('hello');
+document.addEventListener('deviceready', function () {
     document.getElementById('geolocation').addEventListener('click', function () {
         navigator.geolocation.getCurrentPosition(
             function (position) {
