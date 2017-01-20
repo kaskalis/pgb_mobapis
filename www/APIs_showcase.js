@@ -1,5 +1,6 @@
 document.addEventListener('deviceready', function () {
     document.getElementById('testTag').innerHTML = 'started event';
+    navigator.notification.alert('text');
 /*    document.getElementById('geolocation').addEventListener('click', function () {
         navigator.geolocation.getCurrentPosition(
             function (position) {
