@@ -1,4 +1,4 @@
-document.addEventListener('deviceready', function () {
+//document.addEventListener('deviceready', function () {
     document.getElementById('testTag').innerHTML = 'started';
 /*    document.getElementById('geolocation').addEventListener('click', function () {
         navigator.geolocation.getCurrentPosition(
@@ -154,4 +154,4 @@ document.addEventListener('deviceready', function () {
             document.getElementById('level').innerHTML = batteryStatus.level;
         }
     });*/
-});
+//});
