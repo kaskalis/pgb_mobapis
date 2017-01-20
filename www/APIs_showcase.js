@@ -1,5 +1,6 @@
 document.addEventListener('deviceready', function () {
-    document.getElementById('geolocation').addEventListener('click', function () {
+    document.getElementById('testTag').innerHTML = 'started';
+/*    document.getElementById('geolocation').addEventListener('click', function () {
         navigator.geolocation.getCurrentPosition(
             function (position) {
                 var prop, data = position.coords;
@@ -152,5 +153,5 @@ document.addEventListener('deviceready', function () {
             document.getElementById('charging').innerHTML = batteryStatus.isPlugged ? 'Ναι' : 'Όχι';
             document.getElementById('level').innerHTML = batteryStatus.level;
         }
-    });
+    });*/
 });
